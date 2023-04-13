@@ -81,3 +81,9 @@
 //setTimeOut and setTimeInterval 
 //setTimeOut -> run function once after a given interval of time
 //setTimeInterval -> run function repeatedly after a given interval of time
+
+function greeting(){
+    console.log("Hello, Arun");
+}
+
+setTimeout(greeting,5000);
