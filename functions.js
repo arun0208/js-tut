@@ -78,12 +78,25 @@
 
 
 
-//setTimeOut and setTimeInterval 
+//setTimeOut and setInterval 
 //setTimeOut -> run function once after a given interval of time
-//setTimeInterval -> run function repeatedly after a given interval of time
+//setInterval -> run function repeatedly after a given interval of time
 
-function greeting(){
-    console.log("Hello, Arun");
-}
+// function greeting(){
+//     console.log("Hello, Arun"); //output -> Hello, Arun (after 5 seconds)
+// }
 
-setTimeout(greeting,5000);
+// setTimeout(greeting,5000);
+
+// setTimeout(function greeting(name){
+//     console.log(`Hello, ${name}`);
+// },1000,"Ram") //output -> Hello, Ram (after 1 second)
+
+
+//setInterval
+// function greeting(){
+//     console.log("Hello, Arun");
+// }
+
+// setInterval(greeting,1000); //output -> Hello, Arun will be printed continously after 1 sec of time interval
+
