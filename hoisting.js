@@ -5,7 +5,7 @@
 // console.log(score); //output -> 100
 // var score;
 
-//let and connst does not support hoisting
+//let and const does not support hoisting
 
 //function decalartions also support hoisting
 // score();// output -> 100
