@@ -10,10 +10,22 @@
 
 
 let list = document.querySelectorAll('li');
+let isStriked = false;
 
 list.forEach((ele) => {
     ele.addEventListener('click',(e)=>{
-        console.log(e.target.innerText);
+        if(!isStriked){
+            console.log(e.target.innerText);
         e.target.style.textDecoration = "line-through";
+        isStriked = true;
+        }
+        else{
+            e.target.style.textDecoration = "none";
+            isStriked = false;
+        }
+    })
+
+    ele.addEventListener('dblclick',(e)=>{
+        e.target.remove();
     })
 });

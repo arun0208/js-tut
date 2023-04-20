@@ -1,0 +1,1 @@
+//Event Bubblinng is a javascript functionality is that when we add an event listener to an element it also added to its parent
